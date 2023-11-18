@@ -3,7 +3,7 @@ import boto3, response
 region = 'ap-south-1'
 Name='Dynamic-Web-App-backend-Grp-7'
 instance_type = 't2.micro'
-image_id = 'ami-0f5ee92e2d63afc18'  # Replace with the desired AMI ID
+image_id = 'AMI ID'  # Replace with the desired AMI ID
 security_group_ids = ['sg-0103a917e74448c29']
 key_name = 'ec2_ramkumar'
 user_data = """#!/bin/bash
